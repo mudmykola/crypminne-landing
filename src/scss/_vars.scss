@@ -1,0 +1,48 @@
+// colors
+:root {
+  --font-family: 'Inter', sans-serif;
+  --content-width: 75rem;
+  --container-offset: 0.938;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+  // colors
+  --light-color: #fff;
+  //fonts
+  --font-l: 300;
+  --font-r: 400;
+  --font-m: 500;
+  --font-b: 700;
+  --font-eb: 800;
+  //transition
+  --h-tr: all 0.5s ease;
+  --d-tr: all 0.3s ease;
+}
+
+//color
+$c100: #07EDFF;
+$c101: #022E97 ;
+$c103: #242424;
+$c104: #000;
+$c105: #F4F4F4;
+$c106: #C2C2C2;
+
+$default: #fff;
+
+//effect
+%border-ef {
+  box-shadow: 0 0.313rem 2.188rem rgba(225, 242, 255, 0.9);
+}
+
+%header-ef {
+  background: linear-gradient(180deg, #000040 0%, #02176B 100%);
+}
+
+// transition
+%dtrans {
+  transition: var(--d-tr);
+}
+
+%htrans {
+  transition: var(--h-tr);
+}
+
+

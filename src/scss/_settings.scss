@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+}
+
+ul,
+p,
+h3,
+h2 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+button{
+  cursor: pointer;
+  border: none;
+  background: $c100;
+  border-radius: 0.313rem;
+  font-weight: var(--font-r);
+  height: 2.313rem;
+  padding: 0 1.25rem;
+  width: 6.875rem;
+
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.page__body {
+  font-weight: var(--font-r);
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: $c104;
+  background: $default;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: $default;
+}
+

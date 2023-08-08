@@ -1,0 +1,43 @@
+.navigation {
+  &-block{
+    background: $c101;
+  }
+  padding: 0.625rem 0;
+  display: flex;
+  align-items: center;
+
+  &-menu {
+    ul {
+      display: flex;
+      align-items: center;
+
+      li {
+        a {
+          @extend %dtrans;
+        }
+
+        &:hover {
+          a {
+            @extend %htrans;
+          }
+
+        }
+      }
+
+      li + li {
+        margin-left: 2.313rem;
+      }
+    }
+  }
+
+  &-auth {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2.5rem;
+
+    button {
+      color: $c101;
+    }
+  }
+}

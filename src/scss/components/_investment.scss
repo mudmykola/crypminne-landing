@@ -1,0 +1,23 @@
+.investment {
+  &-inner{
+   padding-top: 5.313rem;
+  }
+  &-text {
+    width: 31.188rem;
+    h2{
+      margin-bottom: 1.25rem;
+      font-size: 2rem;
+      line-height: 2.5rem;
+      font-weight: var(--font-b);
+      color: $c103;
+    }
+    p{
+      font-size: 1.125rem;
+      line-height: 1.375ren;
+      color: $c104;
+    }
+    p+p{
+      margin-top: 0.938rem;
+    }
+  }
+}
