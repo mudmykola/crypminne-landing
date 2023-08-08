@@ -1,0 +1,23 @@
+.video{
+  color: $default;
+  text-align: center;
+  @extend %header-ef;
+  width: 100%;
+  padding-bottom: 8.813rem;
+
+  h2{
+    padding: 4.438rem 0 3.813rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: var(--font-b);
+  }
+  &-player{
+    position: relative;
+    &__play{
+      cursor: pointer;
+      position: absolute;
+      left: 43%;
+      bottom: 30%;
+    }
+  }
+}

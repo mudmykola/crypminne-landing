@@ -1,0 +1,25 @@
+.about {
+  &-inner {
+    padding: 4.5rem 0 8.75rem;
+
+    ul {
+      li + li {
+        margin-top: 2.625rem;
+      }
+
+      li {
+        h2 {
+          font-size: 2rem;
+          line-height: 2.5rem;
+          font-weight: var(--font-b);
+          margin-bottom: 1.25rem;
+        }
+
+        p {
+          font-size: 1.125rem;
+          line-height: 1.25rem;
+        }
+      }
+    }
+  }
+}

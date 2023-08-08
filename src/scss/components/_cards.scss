@@ -1,0 +1,52 @@
+.cards {
+  margin-top: 8.125rem;
+  padding-bottom: 8.625rem;
+  @extend %header-ef;
+  color: $default;
+
+  &-box {
+    &__title {
+      padding-top: 4.625rem;
+      text-align: center;
+
+      h2 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        font-weight: var(--font-b);
+      }
+      p{
+        font-size: 1.125rem;
+        line-height: 1.25rem;
+        font-weight: var(--font-m);
+      }
+    }
+    &__inner{
+      padding: 2.438rem 1.063rem 4.75rem;
+      color: $c104;
+      text-align: center;
+      img{
+        margin-bottom: 1.625rem;
+      }
+      h2{
+        font-size: 1.125rem;
+        line-height: 1.25rem;
+        font-weight: var(--font-m);
+        margin-bottom: 0.75rem;
+      }
+    }
+    ul{
+      margin-top: 5.063rem;
+      display: flex;
+      justify-content: center;
+      gap: 4.438rem;
+      li{
+        cursor: pointer;
+        width: 19.125rem;
+        background: $default;
+        border-radius:  0.625rem;
+        box-shadow: 0 0.313rem 0.625rem 0.313rem rgba(0, 0, 0, 0.25);
+
+      }
+    }
+  }
+}
