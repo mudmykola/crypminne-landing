@@ -7,6 +7,7 @@
       @extend %border-ef;
     }
   }
+
   &-text {
     width: 31.188rem;
 
@@ -28,18 +29,19 @@
       margin-top: 0.938rem;
     }
   }
-  &-list{
-    margin: 5.25rem 0 8.125rem;
-    ul{
-     li{
-       display: flex;
-       align-items: center;
-       gap: 1.5rem;
 
-     }
+  &-list {
+    margin: 5.25rem 0 8.125rem;
+    ul {
+      li {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+      }
     }
   }
-  &-item{
+
+  &-item {
     margin-bottom: 3.785rem;
   }
 }
