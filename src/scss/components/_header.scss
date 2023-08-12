@@ -69,8 +69,9 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      border: 1px solid $c100;
-      border-radius: 5px;
+      border: 0.063rem solid $c100;
+      border-radius: 0.313rem;
+      margin-left: 0.688rem;
       p{
         color: $c100;
         padding-right: 0.813rem;
