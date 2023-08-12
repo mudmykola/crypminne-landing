@@ -1,0 +1,36 @@
+.partner {
+  &-inner {
+    @extend %header-ef;
+    padding-bottom: 8.75rem;
+
+  }
+
+  &-box {
+    h2 {
+      text-align: center;
+      color: $default;
+      font-size: 2rem;
+      line-height: 2.5rem;
+      font-weight: var(--font-b);
+      padding: 3.563rem 0;
+    }
+
+    &__cont {
+      padding: 0.688rem 1.25rem 4.75rem;
+    }
+
+    ul {
+      display: flex;
+      justify-content: center;
+      gap: 1.75rem;
+
+      li {
+        cursor: pointer;
+        background: $default;
+        width: 15.25rem;
+        border-radius: 0.625rem;
+        text-align: center;
+      }
+    }
+  }
+}
